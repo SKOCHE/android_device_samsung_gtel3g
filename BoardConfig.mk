@@ -9,12 +9,11 @@ DEVICE_PATH := device/samsung/gtel3g
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
-TARGET_ARCH := armeabi-v7a
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := generic
 TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_ABI2 := 
+TARGET_CPU_ABI2 :=armeabi
 TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := generic
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := recovery
 TARGET_NO_BOOTLOADER := true
