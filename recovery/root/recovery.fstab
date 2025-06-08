@@ -1,0 +1,7 @@
+# Android fstab file for TWRP
+#<src>  <mnt_point>  <type>  <mnt_flags>  <fs_mgr_flags>
+/dev/block/platform/sprd-sdhci.3/by-name/SYSTEM  /system  ext4  defaults  defaults
+/dev/block/platform/sprd-sdhci.3/by-name/userdata  /data  ext4  defaults  defaults
+/dev/block/platform/sprd-sdhci.3/by-name/CSC  /cache  ext4  defaults  defaults
+/dev/block/platform/sprd-sdhci.3/by-name/KERNEL  /boot  emmc  defaults  defaults
+/dev/block/platform/sprd-sdhci.3/by-name/RECOVERY  /recovery  emmc  defaults  defaults
