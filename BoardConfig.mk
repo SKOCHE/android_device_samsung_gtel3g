@@ -10,10 +10,9 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm
-TARGET_ARCH_VARIANT := generic
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 :=armeabi
-TARGET_CPU_VARIANT := generic
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := recovery
 TARGET_NO_BOOTLOADER := true
