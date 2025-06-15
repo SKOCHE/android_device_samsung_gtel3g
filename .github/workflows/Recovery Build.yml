@@ -13,14 +13,14 @@ env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
   MANIFEST_BRANCH: twrp-7.1
   DEVICE: gtel3g
-  DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g/
+  DT_LINK: https://github.com/SKOCHE/android_device_samsung_gtel3g/
   DT_PATH: device/samsung/gtel3g
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
     - name: Checkout
       uses: actions/checkout@master
